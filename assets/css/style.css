@@ -1,0 +1,53 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+header {
+    padding: 20px 35px;
+    background-color: #ffcc00;
+  }
+
+header h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    color: #c438fc;
+    margin: 0;
+    display: inline;
+  }
+
+  header nav {
+    float: right;
+    margin: 7px 0;
+  }
+  
+header nav ul li {
+    display: inline;
+  }
+
+header nav ul li a {
+    margin: 0 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(9, 139, 0);
+    font-weight: lighter;
+    font-size: 22px;
+  }
+
+  a {
+    position: relative;
+    text-decoration: none;
+  }
+  
+  a:hover, a:active {
+    background-color: rgb(255, 255, 255);
+    padding: 4px 4px;
+  }
+
+  .hero {
+    height: 400px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/portfolio header-01.png");
+    background-size: cover;
+    background-position: center;
+}
