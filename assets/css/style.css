@@ -5,27 +5,48 @@ html {
 header {
     padding: 20px 35px;
     background-color: #ffcc00;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
   }
 
 header h1 {
+    display: flex;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: bold;
     font-size: 36px;
     color: #c438fc;
     margin: 0;
-    display: inline;
   }
 
   header nav {
-    float: right;
     margin: 7px 0;
-  }
-  
-header nav ul li {
-    display: inline;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
   }
 
+  header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+  }
+  
+/* header nav ul li {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    flex-direction: row;
+  } */
+
 header nav ul li a {
+    display: flex;
     margin: 0 30px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: rgb(9, 139, 0);
