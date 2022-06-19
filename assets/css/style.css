@@ -65,10 +65,34 @@ header nav ul li a {
   }
 
   .hero {
-    height: 400px;
+    height: 300px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../images/portfolio header-01.png");
+    background-image: url("../images/porthead2.jpg");
     background-size: cover;
     background-position: center;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hero-box {
+    background-color: #ffcc00;
+    border: 2px solid #c438fc;
+    width: 150px;
+    position: absolute;
+    bottom: 20px;
+    right: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    align-items: center;
+    margin: 20px;
+
+}
+
+.hero-box h3 {
+    align-items: center;
 }
