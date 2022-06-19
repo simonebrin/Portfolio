@@ -2,8 +2,12 @@ html {
     scroll-behavior: smooth;
   }
 
+body {
+    background-color: #ffcc00;
+}
+
 header {
-    padding: 20px 35px;
+    /* padding: 20px 35px; */
     background-color: #ffcc00;
     display: flex;
     justify-content: space-between;
@@ -17,7 +21,7 @@ header h1 {
     font-weight: bold;
     font-size: 36px;
     color: #c438fc;
-    margin: 0;
+    margin: 10px 0;
   }
 
   header nav {
@@ -81,18 +85,35 @@ header nav ul li a {
     border: 2px solid #c438fc;
     width: 150px;
     position: absolute;
-    bottom: 20px;
-    right: 50px;
+    bottom: 15px;
+    right: 20px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-between;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     align-items: center;
-    margin: 20px;
+    margin: 0px;
+    box-sizing:border-box;
+    text-align: center;
 
 }
 
 .hero-box h3 {
     align-items: center;
+    text-align: center;
+    display: flex;
+    box-sizing:border-box;
+    margin: auto;
+    padding: 15px;
+    color: rgb(9, 139, 0);
+}
+
+.about-info {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #c438fc
+}
+
+.work-info {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #c438fc
 }
