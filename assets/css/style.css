@@ -1,14 +1,19 @@
+:root {
+    --main-color: #9623C2;
+    --sub-color: #3060D1;
+}
+
 html {
     scroll-behavior: smooth;
   }
 
 body {
-    background-color: #ffcc00;
+    background-color: #ffd838;
 }
 
 header {
     /* padding: 20px 35px; */
-    background-color: #ffcc00;
+    background-color: #ffd838;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -20,7 +25,7 @@ header h1 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: bold;
     font-size: 36px;
-    color: #c438fc;
+    color: var(--main-color);
     margin: 10px 0;
   }
 
@@ -53,7 +58,7 @@ header nav ul li a {
     display: flex;
     margin: 0 30px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: rgb(9, 139, 0);
+    color: var(--sub-color);
     font-weight: lighter;
     font-size: 22px;
   }
@@ -72,7 +77,7 @@ header nav ul li a {
     height: 300px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../images/porthead2.jpg");
+    background-image: url("../images/porthead3.jpg");
     background-size: cover;
     background-position: center;
     position: relative;
@@ -81,8 +86,8 @@ header nav ul li a {
 }
 
 .hero-box {
-    background-color: #ffcc00;
-    border: 2px solid #c438fc;
+    background-color: #ffd838;
+    border: 2px solid var(--main-color);
     width: 150px;
     position: absolute;
     bottom: 15px;
@@ -105,15 +110,12 @@ header nav ul li a {
     box-sizing:border-box;
     margin: auto;
     padding: 15px;
-    color: rgb(9, 139, 0);
+    color: var(--sub-color);
 }
 
 .about-info {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: #c438fc
+    color: var(--main-color);
 }
 
-.work-info {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: #c438fc
-}
+
