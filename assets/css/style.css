@@ -77,7 +77,7 @@ header nav ul li a {
     height: 300px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../images/porthead3.jpg");
+    background-image: url("../images/simsleeps.jpg");
     background-size: cover;
     background-position: center;
     position: relative;
@@ -115,7 +115,16 @@ header nav ul li a {
 
 .about-info {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: var(--sub-color);
+    vertical-align: top;
+    text-align: left;
+}
+
+.section-title {
     color: var(--main-color);
 }
 
+.about-info div {
+    color: var(--sub-color)
 
+}
