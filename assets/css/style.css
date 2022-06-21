@@ -27,6 +27,7 @@ header h1 {
     font-size: 36px;
     color: var(--main-color);
     margin: 10px 0;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
   }
 
   header nav {
@@ -43,6 +44,7 @@ header h1 {
     justify-content: space-between;
     align-items: center;
     list-style: none;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
   }
   
 /* header nav ul li {
@@ -61,11 +63,16 @@ header nav ul li a {
     color: var(--sub-color);
     font-weight: lighter;
     font-size: 22px;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
   }
 
   a {
     position: relative;
     text-decoration: none;
+  }
+
+  a:link {
+    color: var(--sub-color)
   }
   
   a:hover, a:active {
@@ -111,6 +118,7 @@ header nav ul li a {
     margin: auto;
     padding: 15px;
     color: var(--sub-color);
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
 }
 
 .about-info {
@@ -119,12 +127,14 @@ header nav ul li a {
     vertical-align: top;
     text-align: left;
     display: flex;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
 }
 
 .section-title {
     color: var(--main-color);
     display: flex;
     margin: 10px 20px 10px 0px;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
 }
 
 .about-info div {
@@ -154,6 +164,7 @@ figcaption {
     text-align: center;
     vertical-align: top;
     width: 34%;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
   }
 
   img-scaled {
