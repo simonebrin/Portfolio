@@ -118,13 +118,23 @@ header nav ul li a {
     color: var(--sub-color);
     vertical-align: top;
     text-align: left;
+    display: flex;
 }
 
 .section-title {
     color: var(--main-color);
+    display: flex;
+    margin: 10px 20px 10px 0px;
 }
 
 .about-info div {
-    color: var(--sub-color)
+    color: var(--sub-color);
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
 
+.about-info img {
+    width: 35%;
+    float: left;
 }
