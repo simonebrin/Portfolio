@@ -138,3 +138,24 @@ header nav ul li a {
     width: 35%;
     float: left;
 }
+
+figure {
+    display: table;
+    width: 100%;
+}
+
+figcaption {
+    display: table-caption;
+    caption-side: top;
+    background-color: black;
+    color: white;
+    font-style: italic;
+    padding: 2px;
+    text-align: center;
+    vertical-align: top;
+    width: 34%;
+  }
+
+  img-scaled {
+    width: 100%;
+  }
