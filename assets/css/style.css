@@ -1,6 +1,6 @@
 :root {
-    --main-color: #9623C2;
-    --sub-color: #3060D1;
+    --main-color: #b908ff;
+    --sub-color: #2868ff;
 }
 
 html {
@@ -8,12 +8,12 @@ html {
   }
 
 body {
-    background-color: #ffd838;
+    background-color: #ffaf54;
 }
 
 header {
     /* padding: 20px 35px; */
-    background-color: #ffd838;
+    background-color: #ffaf54;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -170,3 +170,4 @@ figcaption {
   img-scaled {
     width: 100%;
   }
+  
