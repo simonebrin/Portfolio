@@ -69,11 +69,11 @@ header nav ul li a {
   }
 
   a:link {
-    color: var(--sub-color)
+    color: var(--sub-color);
   }
   
   a:hover, a:active {
-    background-color: rgb(255, 255, 255);
+    background-color: #ffd838;
     padding: 4px 4px;
   }
 
@@ -144,18 +144,20 @@ header nav ul li a {
 
 .about-info div {
     color: var(--sub-color);
-    /* display: flex;
+    display: flex;
     flex-wrap: wrap;
-    align-content: center; */
+    align-content: center;
 }
 
 .about-info img {
     width: 450px;
     float: left;
+    box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.25);
 }
 
 .resume-info {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
     color: var(--main-color);
     display: flex;
     margin: 10px 20px 10px 0px;
@@ -164,6 +166,11 @@ header nav ul li a {
 
 .resume-info img {
     width: 200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.25);
 }
 
 figcaption {
@@ -180,6 +187,17 @@ figcaption {
 
   img-scaled {
     width: 100%;
+  }
+
+  footer {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: var(--main-color);
+    display: flex;
+    text-align: center;
+    margin: 30px 0px 0px 0px;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+    justify-content: center;
+    background-color: #ffd838;
   }
 
 
@@ -199,6 +217,15 @@ figcaption {
         float: none;
 
     }
+
+    .resume-info img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        float: none;
+    }
+
     figcaption {
         display: block;
         margin-left: auto;
