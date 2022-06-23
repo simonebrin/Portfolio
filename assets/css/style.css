@@ -150,11 +150,26 @@ header nav ul li a {
 }
 
 .about-info img {
-    width: 450px;
+    width: 70%;
     float: left;
     box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.25);
 }
 
+.about-info2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+    color: var(--sub-color);
+    vertical-align: top;
+    text-align:center;
+    display: flex;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+}
+
+.about-info2 img {
+    width: 30%;
+    float: left;
+    box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.25);
+}
 .resume-info {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: larger;
@@ -181,7 +196,19 @@ figcaption {
     padding: 2px;
     text-align: center;
     vertical-align: top;
-    width: 445px;
+    width: 70%;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+  }
+
+  .about-info2 figcaption {
+    caption-side: top;
+    background-color: var(--main-color);
+    color: white;
+    font-style: italic;
+    padding: 2px;
+    text-align: center;
+    vertical-align: top;
+    width: 30%;
     text-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
   }
 
@@ -213,24 +240,41 @@ figcaption {
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 50%;
+        width: 70%;
         float: none;
 
     }
 
-    .resume-info img {
+    .about-info2 img {
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 30%;
+        width: 40%;
         float: none;
+
     }
+
+    .about-info2 figcaption {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+    }
+
+    /* .test {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        width: 250px;
+        float: left;
+    } */
 
     figcaption {
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 50%;
+        width: 70%;
     }
     .section-title {
         font-size: 30px;
